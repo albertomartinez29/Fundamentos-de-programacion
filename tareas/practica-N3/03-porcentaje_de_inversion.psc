@@ -1,7 +1,7 @@
 //Tres personas deciden invertir su dinero 
 //para fundar una empresa. Cada una de 
 //ellas invierte una cantidad distinta.
-//Realizar el análisis y pseudocodigo para 
+//Realizar el anï¿½lisis y pseudocodigo para 
 //obtener el porcentaje, que cada quien invierte 
 //con respecto a la cantidad total invertida.
 Proceso porcentaje_de_inversion

@@ -1,10 +1,9 @@
-// Dado la nota de un estudiante por teclado según sea el número mostrar 
-// "pésimo" si el número es menor a 25, 
-// "malo" si el número esta entre 25 y 50, 
-// "bueno" si el número esta entre 50 y 75 y 
-// "excelente" si el número es mayor que 75
+//*  Dado la nota de un estudiante por teclado segï¿½n sea el nï¿½mero mostrar 
+// "pï¿½simo" si el nï¿½mero es menor a 25, 
+// "malo" si el nï¿½mero esta entre 25 y 50, 
+// "bueno" si el nï¿½mero esta entre 50 y 75 y 
+//  excelente" si el nï¿½mero es mayor que 75
 Algoritmo laNota
-	
 	Escribir "digite su nota"
 	Leer nota
 	

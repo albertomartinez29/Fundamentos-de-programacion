@@ -1,7 +1,9 @@
-// Un número es "NOTEEN", si es menor de 15 o mayor de 20. 
-// Dado un numero visualizar si el número es "NOTEEN" o "TEEN".
+//* Un nï¿½mero es "NOTEEN", si es menor de 15 o mayor de 20. 
+//* Dado un numero visualizar si el nï¿½mero es "NOTEEN" o "TEEN".
+
 Algoritmo noteen
-	
+	Escribir " "
+	Escribir " "
 	Escribir "Por favor ingrese un dato"
 	Leer dato
 	
