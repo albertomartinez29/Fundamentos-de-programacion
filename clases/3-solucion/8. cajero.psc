@@ -1,4 +1,4 @@
-//  Hacer un programa que simule un cajero automático con un saldo de 1000
+//  Hacer un programa que simule un cajero automï¿½tico con un saldo de 1000
 // el formulario debe ser validado con la clave del usuario 
 // si es correcto se tiene que mostrar las opciones de retiro, deposito, consulta, salir
 Algoritmo cajero
@@ -8,9 +8,9 @@ Algoritmo cajero
 	
 	Escribir "Digite la clave:"
 	Leer clave
-	
+	Borrar Pantalla
 	Si clave = claveuser Entonces
-		Borrar Pantalla
+		Repetir
 		Escribir "   B I E N   V E N I D O"
 		Escribir " "
 		Escribir " 1.- Retiro"
@@ -18,7 +18,7 @@ Algoritmo cajero
 		Escribir " 3.- Consultar"
 		Escribir " 4.- Salir"
 		Escribir " "
-		Escribir "Por favor digite una opción: " Sin Saltar
+		Escribir "Por favor digite una opciï¿½n: " Sin Saltar
 		Leer op
 		Borrar Pantalla
 		Segun op Hacer
@@ -43,8 +43,9 @@ Algoritmo cajero
 			4:
 				Escribir "gracias por su visita vuelva pronto"
 			De Otro Modo:
-				Escribir "opción equivocada"
+				Escribir "opciï¿½n equivocada"
 		FinSegun
+		Hasta Que op <> 4
 	SiNo
 		Escribir "clave incorrecta"
 	FinSi
